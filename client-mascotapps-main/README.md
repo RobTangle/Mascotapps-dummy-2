@@ -1,6 +1,6 @@
 [![Deployment Pipeline](https://github.com/laureanomarenco/client-mascotapps/actions/workflows/demo.yml/badge.svg)](https://github.com/laureanomarenco/client-mascotapps/actions/workflows/demo.yml)
 
-test branchs
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
