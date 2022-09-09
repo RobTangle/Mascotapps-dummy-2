@@ -15,6 +15,17 @@ router.get("/", (_req, res) => {
   }
 });
 
+router.get("/:id", (req, res) => {
+  console.log("entré al get por params id");
+  try {
+    let id = req.params.id;
+    let petById = petServices.getPetById(id);
+    return res.status(200).send(petById);
+  } catch (error: any) {
+    return res.status(404).send(error.message);
+  }
+});
+
 router.post("/", (req, res) => {
   console.log("entré al post de pets");
   console.log("req.body: ");
