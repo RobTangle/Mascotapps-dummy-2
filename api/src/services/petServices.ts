@@ -16,3 +16,8 @@ export function addNewPet(newPetEntry: any): NewPetEntry {
   allThePets.push(newPet);
   return newPet;
 }
+
+export function getPetById(id: any): Pet | undefined {
+  const petFilteredById = allThePets.find((pet) => pet.id == id);
+  return petFilteredById;
+}
