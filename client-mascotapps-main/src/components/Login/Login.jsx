@@ -8,9 +8,10 @@ export default function Login() {
   // estilos para el paper
   const paperStyle = {
     padding: 20,
-    height: '80vh',
-    width:'280px',
-    margin: '20px 900px',
+    height: '90vh',
+    width:'380px',
+    margin: '20px auto',
+    
   }
   const avatarStyle = {
     backgroundColor: '#564cb9',
